@@ -1,9 +1,5 @@
 pipeline {
-	agent {
-		docker {
-			image 'ghcr.io/jenkins-docs/quickstart-tutorials/jenkinsci-tutorials'
-		}
-	}
+	agent any
 	stages {
 		stage('Build') {
 			steps {
