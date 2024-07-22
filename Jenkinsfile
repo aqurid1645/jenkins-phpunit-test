@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 		docker {
-			image 'composer:latest'
+			image 'ghcr.io/jenkins-docs/quickstart-tutorials/jenkinsci-tutorials'
 		}
 	}
 	stages {
